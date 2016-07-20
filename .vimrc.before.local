@@ -1,0 +1,11 @@
+let g:spf13_edit_config_mapping='<leader>ec'
+let g:spf13_apply_config_mapping='<leader>sc'
+        
+let g:spf13_bundle_groups=['general', 'writing', 'neocomplete', 'programming', 'haskell', 'javascript', 'html', 'misc',]
+
+"https://github.com/spf13/spf13-vim/issues/819#issuecomment-14537876://github.com/spf13/spf13-vim/issues/819#issuecomment-145378767
+"inoremap <expr><CR> neosnippet#expandable() ? neosnippet#mappings#expand_or_jump_impl() : pumvisible() ? neocomplete#close_popup() : "\<CR>"
+
+" Enable powerline symbols
+let g:airline_powerline_fonts = 1
+
